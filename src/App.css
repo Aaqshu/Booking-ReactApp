@@ -1,0 +1,453 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  pointer-events: none;
+}
+
+.logo-name {
+  color: #FFFFFF;
+  margin-top: 5%;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+/* @font-face {
+  font-family: "SFProText-Regular";
+  src: url("./assets/fonts/SFProText-Regular.ttf")format("ttf");
+  src: url("./assets/fonts/sfprotext-regular.woff") format("woff"),
+  } */
+
+  @font-face {
+    font-family: "SF Pro Text"; src: url("//db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.eot"); 
+    src: url("//db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.eot?#iefix") format("embedded-opentype"),
+         url("//db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.woff2") format("woff2"), 
+         url("//db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.woff") format("woff"),
+         url("//db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.ttf") format("truetype"),
+         url("//db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.svg#SF Pro Text") format("svg"); 
+        }
+
+.main-container {
+  background-color: white;
+  width: 375px;
+  height: 812px;
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  position: absolute;
+  
+}
+.inner-container {
+  padding-top: 40%;
+}
+.bk-inner-container {
+  padding-top: 10%;
+}
+.description {
+  color: #8C7C9E;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10%;
+  line-height: initial;
+}
+
+.que-btn {
+  width: 315px;
+  height: 60px;
+  border-radius: 15px;
+  color: white;
+  background-image: linear-gradient(to right, #A366DB , #D4A1CF);
+  outline: none;
+  border: transparent;
+}
+
+.que-btn-elem {
+  position: absolute;
+  top: 685%;
+}
+.que-btn-wel {
+  margin-top: 35%;
+}
+
+.hr-line {
+  width: 134px;
+  height: 5px;
+  background-color: #000000;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+.hr-line-contain {
+  position: absolute;
+  top: 856px;
+  left: 25%;
+  margin-bottom: 15px;
+    }
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.enter-number {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  width: 163px;
+  height: 23px;
+}
+.enter-number-label {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  width: 204px;
+  height: 23px;
+}
+.que-textfield {
+  width: 315px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: transparent;
+  outline: none;
+  padding: 10px 20px;
+  border: 1.4px solid #432763;
+  font-size: 15px;
+  font-weight: 600;
+  color: #614A7C;
+}
+.logo-contain {
+  padding-left: 194%;
+}
+.inner-container-number {
+  position: absolute;
+  top: 14%;
+  left: 8%;
+
+}
+.form-field-container {
+  position: absolute;
+  top: 208%;
+}
+.back-arrow {
+  position: absolute;
+  bottom: 144px;
+}
+.que-code-field {
+    width: 71px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: transparent;
+    outline: none;
+    padding: 10px 20px;
+    border: 1.4px solid #432763;
+    font-size: 15px;
+    font-weight: 600;
+    color: #614A7C;
+    margin: 5px;
+}
+.code-container {
+  float: left;
+  width: 324px;
+}
+.code-label {
+  width: 204px;
+  height: 36px;
+  border-radius: 15px;
+  background-color: transparent;
+  outline: none;
+  border: 1.4px solid #592E89;
+  font-size: 14px;
+  color: white;
+  position: absolute;
+  top: 113px;
+  left: 51px;
+  padding: 4px;
+}
+.username-label {
+  font-size: 16px;
+  width: 245px;
+  color: #A599B2;
+}
+.username-title-label {
+  color: white;
+  font-size: 24px;
+  padding-bottom: 36px;
+  width: 221px;
+  height: 23px;
+  font-family: Poppins Semibold Regular;
+}
+.booking-header {
+  position: relative;
+}
+.bk-title {
+  position: absolute;
+  font-family: Poppins;
+  font-size: 14px;
+  color: #C4BDCC;
+}
+.bk-name {
+  position: absolute;
+  top: 28px;
+  color: #351658;
+  font-size: 22px;
+  font-family: SF Pro Text;
+}
+.userpic {
+  position: absolute;
+  left: 295px;
+  border-radius: 50px;
+}
+.week-container {
+  position: relative;
+  margin-top: 20%;
+}
+.bk-arrow-left {
+  position: absolute;
+    top: 23px;
+}
+.bk-arrow-right {
+  position: absolute;
+  top: 23px;
+  left: 345px;
+}
+.bk-date-day {
+  left: 50px;
+  top: 10px;
+  float: left;
+  margin-left: 10px;
+  width: 40px;
+  height: 54px;
+  padding-top: 7px;
+}
+.bk-date-day-selected {
+  left: 50px;
+  top: 10px;
+  padding-top: 7px;
+  float: left;
+  margin-left: 10px;
+  width: 40px;
+  height: 54px;
+  border-radius: 10px;
+  color: white;
+  outline: none;
+  border: transparent;
+  background-image: linear-gradient(to bottom, #A366DB , #D4A1CF);
+}
+.bk-date-day-selected:hover {
+  -ms-transform: scale(0.7); /* IE 9 */
+  -webkit-transform: scale(0.7); /* Safari 3-8 */
+  transform: scale(0.7);
+}
+.bk-day {
+  font-size: 11px;
+  color: #C8C2D0;
+}
+.bk-day-selected {
+  font-size: 11px;
+  color: white;
+}
+.bk-date {
+  font-size: 15px;
+  color: #51366F;
+}
+.bk-date-selected {
+  font-size: 15px;
+  color: white;
+}
+.bk-date-day-container {
+  margin-left: 44px;
+  padding-top: 15px;
+}
+.appointment-container {
+  position: absolute;
+  top: 200px;
+}
+.time-label {
+  padding: 13px;
+  border: 1px solid;
+  border-radius: 12px;
+  width: 152px;
+  border-color: #F7F8FB;
+  height: 50px;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  color:#351658;
+}
+.selected {
+  background-color: #351658;
+  color:#DED9E4;;
+  outline: none;
+}
+
+.que-btn-container {
+  position: absolute;
+  top: 785px;
+}
+.disabled {
+  color: #E2DEE5
+}
+button:focus {
+  outline: none;
+}
+.main-pcontainer {
+  background-color: white;
+  width: 375px;
+  height: 812px;
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  position: absolute;
+  
+}
+.free-time-label {
+  width: 250px;
+  text-align: left;
+  color: #CAC3D1;
+  padding-bottom: 15px;
+  font-size: 14px;
+  font-family: Poppins;
+}
+.form-container {
+  margin-top: 35px;
+  position: relative;
+}
+.field-hf {
+  width: 50%;
+  float: left;
+  font-family: SF Pro Text;
+  color: #CCC5D3;
+}
+.field-fl {
+  width: 100%;
+  float: left;
+  font-family: SF Pro Text;
+  color: #CCC5D3;
+}
+.date-time {
+  padding: 18px;
+  border-radius: 13px;
+  border: 2px solid #F9FAFD;
+  margin-right: 10px;
+  width: 75%;
+  outline: none;
+  color: #CEC8D5;
+}
+.full-field {
+  padding: 18px;
+  border-radius: 13px;
+  border: 2px solid #F9FAFD;
+  margin-right: 10px;
+  width: 88%;
+  outline: none;
+  color: #CEC8D5;
+}
+.form-label {
+ text-align: left;
+ padding: 10px;
+ font-weight: lighter;
+}
+.que-pbtn-container {
+  position: absolute;
+  padding: 10px;
+  top: 689px;
+  left: 5%;
+}
+.hr-pline-contain {
+  position: absolute;
+  top: 777px;
+  left: 32%;
+  margin-bottom: 15px;
+}
+.nt-container {
+  text-align: center;
+  width: 1400px;
+  height: 800px;
+  background-image: linear-gradient(to bottom, #A366DB , #D4A1CF);
+}
+.nt-found-container {
+  
+  position: relative;
+  padding-top: 20%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.nt-que-btn {
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 100px;
+  height: auto;
+  font-size: 2.6vh;
+  padding: 15px;
+  width: 50%;
+  display: inline-block;
+  font-family: "Poppins";
+  font-weight: 700;
+  background-color: #A95283;
+  letter-spacing: 1px;
+  transition: all ease 1s;
+  position: absolute;
+  top: 148%;
+  left: 24%;
+}
+.nt-found-h1 {
+  font-weight: 500;
+  
+  top: 79%;
+  left: 43%;
+  position: absolute;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #e2b3cc;
+    font-family: "Poppins";
+    opacity: 0.5;
+}
+.nt-found-h2 {
+  font-family: Poppins;
+  
+  position: absolute;
+  top: 84%;
+  left: 20%;
+
+    font-weight: 200;
+    margin: 0;
+    font-size: 1.2rem;
+    padding: 3rem;
+    letter-spacing: 1px;
+    line-height: 3rem;
+    text-transform: capitalize;
+    color:rgba(255,255,255,1);
+}
+.img-sign {
+  
+  position: absolute;
+  top: 25%;
+  left: 45%;
+}
+input {
+  font-family: SF Pro Text;
+  font-weight: 400;
+  font-size: 17px;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+ {
+  -webkit-text-fill-color: #CEC8D5;
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
